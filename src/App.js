@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Counter from "./components/Counter";
+import FormObject from "./components/FormObject";
+import FormArray from "./components/FormArray";
+import UseEffect from "./components/UseEffect";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Counter /> */}
+      {/* <FormObject /> */}
+      {/* <FormArray /> */}
+      <UseEffect />
+    </>
   );
 }
 
