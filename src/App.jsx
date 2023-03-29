@@ -9,6 +9,8 @@ import Reducer3 from "./components/Reducer3";
 import DataState from "./pages/DataState";
 import DataReducer from "./pages/DataReducer";
 
+import Memo1 from "./components/Memo1";
+
 function App() {
   return (
     <>
@@ -17,6 +19,7 @@ function App() {
       {/* <Reducer3 /> */}
       {/* <DataState /> */}
       {/* <DataReducer /> */}
+      <Memo1 />
     </>
   );
 }
