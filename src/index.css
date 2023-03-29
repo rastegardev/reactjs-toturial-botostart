@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
